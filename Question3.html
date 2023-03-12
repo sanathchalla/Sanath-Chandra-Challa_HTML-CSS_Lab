@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Login Page</title>
+    <style type="text/css">
+        video{
+            position: fixed;
+        }
+        div{
+            position: absolute;
+            top: 15%;
+            left: 35%;
+            min-width: 350px;
+            border: 1px solid white;
+            border-radius: 4px;
+            padding-left: 40px;
+        }
+        input{
+            width: 300px;
+            min-width: 100px;
+            border: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: whitesmoke;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        input:focus{
+            outline: none;
+            color: white;
+            background-color: rgba(70, 131, 180, 0.35);
+        }
+        button{
+            margin: 20px;
+            width: 80px;
+            border-radius: 4px;
+            height: 30px;
+            color: white;
+            font-size: 18px;
+            border: none;
+            background-color: rgb(175, 102, 243);
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <section id="block">
+        <video autoplay muted loop>
+            <source src="Background.mp4" type="video/mp4">
+        </video>
+        <div>
+            <form>
+                <h1>Create Gmail Account</h1>
+                <input type="text" title="name" placeholder="Full Name" required>
+                <br>
+                <input type="number" title="contact_no" min="600000000000" max="9999999999" placeholder="Contact Number" required>
+                <br>
+                <input type="email" title="email" placeholder="Enter Email ID" required>
+                <br>
+                <button>Reset</button>
+                <button>Submit</button>
+            </form>
+        </div>
+    </section>

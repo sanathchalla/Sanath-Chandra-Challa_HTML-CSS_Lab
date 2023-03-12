@@ -1,0 +1,57 @@
+body{
+    height: auto;;
+    margin: 0%;
+}
+
+header h1{
+   
+    background-color: rgb(212, 29, 29);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#navigate{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.menu{
+    margin: 0%;
+    background-color: darkgray;
+}
+.menu li a{
+    color: rgb(214, 75, 15);
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+.menu li:hover{
+    background-color: rgb(1, 9, 9);
+}
+.menu li:nth-child(2):hover #Dropdown1, .menu li:nth-child(3):hover #Dropdown2{
+    display: block;
+}
+#Dropdown1, #Dropdown2{
+    position: absolute;
+    display: none;
+    top: 42.5px;
+    background-color: white;
+    padding: 0%;
+}
+#Dropdown1 li, #Dropdown2 li{
+    display: block;
+}
+#Dropdown1 li, #Dropdown2 li{
+    display: block;
+}
+#Dropdown1 li:hover, #Dropdown2 li:hover{
+    background-color: gainsboro;
+}
+#Dropdown1 li a, #Dropdown2 li a{
+    color: steelblue;
+    font-size: 16px;
+}
